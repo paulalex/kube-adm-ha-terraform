@@ -1,0 +1,11 @@
+# ignore the .terraform directory
+.terraform/
+
+# dont want these either
+.DS_Store
+
+# ignore terraform state files
+terraform.tfstate*
+
+# ignore any pem files
+*.pem
